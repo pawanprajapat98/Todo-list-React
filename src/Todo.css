@@ -1,0 +1,80 @@
+.box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 500px;
+    text-align: center;
+    background-color:#0F2F3A;
+    border:5px solid #0F2F3A;
+    border-radius: 10px;
+}
+body{
+    background-color:#CC9A69;
+}
+.box .container form input{
+    margin: 25px 10px 10px 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:black;
+    color:black;
+    border:1px solid white;
+    font-size: 20px;
+    color: white;
+}
+.heading{
+    width:300px;
+    /* background-color:#CC9A69; */
+    margin-top: 30px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    font-size:20px;
+}
+.btn1{
+    width:100px;
+    height:50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#CC9A69;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+.btn0{
+    width:100px;
+    height:50px;
+    padding:20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#CC9A69;
+    font-weight: bold;
+    border: none;
+}
+.box .container ul li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap:nowrap;
+    list-style: none;
+    border: 1px solid white;
+    width:405px;
+    /* background-color: white; */
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 10px;
+    font-size:20px;
+    color: white;
+   
+}
+.delete-icon
+{
+ color:#22a5b7;
+}
