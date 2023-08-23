@@ -74,7 +74,15 @@ body{
     color: white;
    
 }
-.delete-icon
+.delete-icon svg
 {
  color:#22a5b7;
+ padding:0 20px;
+ font-size:28px;
+}
+.edit-icon svg{
+
+    color:#22a5b7;
+    font-size:30px;
+    padding:0 10px 0 0;
 }
